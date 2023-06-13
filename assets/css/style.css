@@ -29,19 +29,21 @@
   .sl{font-size: 18px;    color: #f7e635;letter-spacing: 2px;margin-bottom: -5px;}
   #autowrite .name{color: #cdf833;}
   .title {color: #f8f9fa;font-size: 70px;font-weight: 800;}
-  .desc{color:  #f8f9fa; }
+  .desc{color:  #f8f9fa; line-height: 1.8; font-size: 2rem; }
   .nav-link {color: #f8f9fa !important;font-size: 16px !important; font-weight: 400;}
   .nav-link:hover{border-bottom: 3px  #ffc107 solid; color:#6c757d !important;} 
   /* .navbar{padding-top:0.8rem !important; position: fixed !important;z-index: 100;background: #000000 !important} */
   .navbar-toggler{color: #f8f9fa !important; }
   .navbar-nav a{margin-left: 12px;}
-  .navbar-nav{margin-left:250px !important}
+  /* .navbar{ position: fixed !important; z-index: 100 !important; background-color: #000000 !important;margin-top: -120px !important;} */
+  .navbar-nav{margin-left:300px !important ;}
   .navbar-brand{font-size:24px !important;font-weight: 900 !important;  color:white!important; }
   .btn-warning{background-color: #d5f857 !important;width: 100px !important;padding: 10px !important; font-weight: 600 !important; letter-spacing: 1px;}
   .btn-warning:hover{background-color: #343a40 !important; color:  #f8f9fa !important ; border: none !important;}
   .btn-outline-primary{margin-left: 8px;width: 100px !important;padding: 10px !important; font-weight: 300 !important;letter-spacing:0.5px;}
   .asd{margin-top: 120px !important;}
-  .img {height: 390px;width: 390px;}
+  .imag-1 {height: 550px;width: 520px;}
+  #imag-2 {height: 400px;width: 400px; margin-left: 150px;}
   #about{color: #f8f9fa !important;margin-top: 130px !important; font-size: 50px; font-weight: 700;line-height: 1.5;}
   #pr{color:  #999999;  line-height: 30px; margin-top: 16px; margin-bottom: 18px; font-size: 18px;}
   .about-me{margin-left: 150px ; margin-top: 15px !important;}
@@ -79,6 +81,7 @@
 .Skills{color: #999999; ; line-height: 30px; margin-top: 16px; font-size: 13px; margin-bottom: 55px;}
 .progress-bar{background-color: rgb(255, 189, 57)!important ; }
 .pg-bar{margin-top: 55px !important;}
+#img{margin-top: -100px !important}
 /* .langage{font-size: 20px ;} */
 .progress {background-color: rgb(56, 53, 53) !important;}
 .poll h3{ color: #f8f9fa; font-size: 14px;font-weight: 500; margin-bottom: -20px; }
@@ -98,7 +101,7 @@
 .content{position: absolute; margin-top: -60px;}
 .content .column{ background-color: rgba(255, 255, 255, 0.1) ; padding: 20px; border-radius: 10px; height: 120px; width: 200px !important;z-index: 100;}
 .container-2 {background-image: url("../Img/cover.jpg");background-repeat: no-repeat;background-position: center center;background-size: cover;height: 370px;position: relative;margin-bottom: 50px;}
-.rowless{margin-left: 350px !important;}
+.rowless{margin-left: 320px !important;}
 .siablo{position: relative; overflow: hidden;}
 .siablo img {transition: opacity 0.3s ease;}
 .siablo img:hover{opacity: 0.3;}
@@ -126,14 +129,18 @@
 .poo{font-size: 12px !important; letter-spacing: 1px !important; width: 130px !important;}
 .foooter h3{font-size: 19px !important ; color: #f8f9fa; margin-bottom: 30px; }
 .foooter p{font-size:13px ; color:   rgba(255, 255, 255, 0.7);}
+.foooter p a {text-decoration: none ;color:   rgba(255, 255, 255, 0.7);font-size:13px}
 .iconnest{margin-top: 35px;}
 .imop{height: 380px; width: 380px; margin-top: -40px;}
 .segment-1{margin-left: 30px;}
 .segment-2{margin-right: 20px;}
 .segment-3{margin-right: -80px;}
 .segment-4{margin-right: px;}
+.fa-bars{font-size: 30px;}
 .divlux{margin-left: 80px;}
-@media screen and (max-width: 964px) {
+.certificate{width: 400px ; height: 250px;}
+.certif{margin-top: 100px !important;}
+@media screen and (max-width: 964px ) {
   /* Styles pour les téléphones mobiles */
   *body{margin-right: 0 ;}
   .div-last{position: relative !important ; float: left !important; left: -100px !important;}
@@ -162,4 +169,10 @@
   .hire-me{margin-left: 35%;}
   .div-custom{margin-left:0px !important}
   #myImage{width: 390px !important; height: 390px !important;}
+  .imag-1 {height: 380px;width: 370px;}
+  #img{margin-top: 0px !important;}
+  #imag-2 {height: 385px;width: 385px; margin-left:-10px;}
+  .div-1{width:410px !important; height:400px !important;}
+  .certio{margin-top: 20px !important}
+  .certificate{width: 350px ; height: 250px;}
 }

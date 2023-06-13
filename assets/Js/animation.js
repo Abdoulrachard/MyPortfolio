@@ -1,5 +1,5 @@
 new fJs.NumberAutoCount({
-    timeout: 500
+    timeout: 500 
 });
 new fJs.AutoWriteText();
 new fJs.Intersection({
