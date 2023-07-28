@@ -25,6 +25,7 @@
   --bs-font: "Poppins";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));}
+  html , body{overflow-x: hidden !important;}
   body{background: #000000 !important;font-family: "Poppins" !important;font-size: 16px !important;}
   .sl{font-size: 18px;    color: #f7e635;letter-spacing: 2px;margin-bottom: -5px;}
   #autowrite .name{color: #cdf833;}
@@ -39,7 +40,7 @@
   .navbar-nav{margin-left:300px !important ;}
   .navbar-brand{font-size:24px !important;font-weight: 900 !important;  color:white!important; }
   .btn-warning{background-color: #d5f857 !important;width: 100px !important;padding: 10px !important; font-weight: 600 !important; letter-spacing: 1px;}
-  .btn-warning:hover{background-color: #343a40 !important; color:  #f8f9fa !important ; border: none !important;}
+  .btn-warning:hover{ border: none !important; outline-style:none;}
   .btn-outline-primary{margin-left: 8px;width: 100px !important;padding: 10px !important; font-weight: 300 !important;letter-spacing:0.5px;}
   .asd{margin-top: 120px !important;}
   .imag-1 {height: 550px;width: 520px;}
@@ -84,7 +85,7 @@
 #img{margin-top: -100px !important}
 /* .langage{font-size: 20px ;} */
 .progress {background-color: rgb(56, 53, 53) !important;}
-.poll h3{ color: #f8f9fa; font-size: 14px;font-weight: 500; margin-bottom: -20px; }
+/* .poll h3{ color: #f8f9fa; font-size: 14px;font-weight: 500; margin-bottom: -20px; } */
 .progress-percent{ color: #f8f9fa; font-size: 14px;font-weight: 500;margin-left: 350px; }
 .polo {margin-top: 100px !important;}
 #project{color: #f8f9fa !important;margin-top: 200px !important; font-size: 50px; font-weight: 700;line-height: 1.5;}
@@ -105,7 +106,7 @@
 .siablo{position: relative; overflow: hidden;}
 .siablo img {transition: opacity 0.3s ease;}
 .siablo img:hover{opacity: 0.3;}
-.siablo .overlay {position: absolute;top: 0;left: 0;width: 100%;height: 100%;background-color:#ffbd39;opacity: 0;transition: opacity 0.3s ease}
+.siablo .overlay {position: absolute;top: 0;left: 0;width: 100%;height: 95%;background-color:#ffbd39;opacity: 0;transition: opacity 0.3s ease}
 .siablo:hover .overlay {opacity: 1;}
 .siablo .overlay-content {position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);color: white;text-align: center;font-weight: 400}
 .overlay-content h5{font-size: 15px; font-weight: 600; color: #c75321; letter-spacing: 1px;}
@@ -140,10 +141,13 @@
 .divlux{margin-left: 80px;}
 .certificate{width: 400px ; height: 250px;}
 .certif{margin-top: 100px !important;}
-
-@media screen and (max-width: 964px ) {
+.yot{color: rgb(255, 255, 255);}
+@media screen and (max-width: 768px ) {
   /* Styles pour les téléphones mobiles */
-  *body{margin-right: 0 ;}
+  *body{margin-right: 0px  ; }
+  html , body{overflow-x: hidden !important;}
+  .navbar-nav{margin-left:0px !important ;}
+  .overflow{overflow-x: hidden !important;}
   .div-last{position: relative !important ; float: left !important; left: -100px !important;}
   .about-me li .ctenu{font-size: 12px}
   .about-me li .dte{font-size:14px }
@@ -176,5 +180,10 @@
   .div-1{width:410px !important; height:400px !important;}
   .certio{margin-top: 20px !important}
   .certificate{width: 350px ; height: 250px;}
+  
+  /* .content-text p{margin-bottom: -50px !important;}
+  
+  .content-text a {position:relative ;margin-bottom: 10px !important;} */
+  
   /* .project-img-1{width: 366px !important; height: 146px !important;} */
 }
