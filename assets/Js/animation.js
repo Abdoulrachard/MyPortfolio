@@ -1,3 +1,7 @@
+window.addEventListener("load", function() {
+    const preloader = document.querySelector(".preloader");
+    preloader.classList.add("preload-finish");
+  });
 new fJs.NumberAutoCount({
     timeout: 500 
 });
@@ -10,4 +14,5 @@ new fJs.Intersection({
     rootMargin: '0px',
     threshold: 0.9,
 });
+
 
