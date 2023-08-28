@@ -147,7 +147,7 @@
 .certificate{width: 400px ; height: 250px;}
 .certif{margin-top: 100px !important;}
 .yot{color: rgb(255, 255, 255);}
-.preloader {
+/* .preloader {
   position: fixed;
   top: 0;
   left: 0;
@@ -209,7 +209,7 @@
 }
 .preloader.preload-finish + .content {
   display: block;
-}
+} */
 
 @media screen and (max-width: 768px ) {
   /* Styles pour les téléphones mobiles */
