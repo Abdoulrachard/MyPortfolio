@@ -172,17 +172,17 @@
 
 .spinner1 {
   border-top-color: #3498db; 
-  animation: spin1 1s linear infinite;
+  animation: spin1 3s linear infinite;
 }
 
 .spinner2 {
   border-top-color: #e74c3c; 
-  animation: spin2 1.5s linear infinite;
+  animation: spin2 3s linear infinite;
 }
 
 .spinner3 {
   border-top-color: #27ae60; 
-  animation: spin3 2s linear infinite;
+  animation: spin3 3s linear infinite;
 }
 
 
